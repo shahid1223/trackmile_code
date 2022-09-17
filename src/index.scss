@@ -22,3 +22,13 @@ code {
 .react-autosuggest__suggestions-container {
   position: absolute;
 }
+
+#divgrid.horizontal {
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+}
+
+.header {
+  font-size: 8vw
+}

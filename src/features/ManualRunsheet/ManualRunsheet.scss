@@ -1,0 +1,142 @@
+.simplifiedRunsheet {
+  background-color: #b5dff1;
+  border-radius: 10px;
+  padding: 1.5rem;
+
+  .getRunsheetBtn {
+    margin-top: 32px;
+  }
+
+  .addDriverRow {
+    padding-top: 20px;
+  }
+}
+
+.autocomplete {
+  ul {
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgb(149 157 165 / 15%);
+    border: 1px solid rgba(33, 33, 33, 0.07);
+
+    li {
+      list-style: none;
+      padding: 5px;
+      text-align: left;
+      border-radius: 0.35rem;
+      background-color: rgba(255, 255, 255, 1);
+
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(255, 122, 122, 0.15);
+      }
+    }
+  }
+}
+
+.driverContainer {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 10px;
+
+  .driverRow {
+    margin: 10px 0;
+  }
+
+  .eachDriver {
+    color: #21366F;
+    padding: 10px 0;
+    background-color: #4DA5D1;
+    border-radius: 5px;
+    margin: 0;
+
+    .btnGroup {
+      button {
+        padding: 0 10px;
+        margin-left: 10px;
+        float: right;
+      }
+    }
+  }
+
+  .runsheetContainer {
+    margin: 15px 0;
+
+    .runsheetHeader {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .checkbox {
+      width: 50px;
+
+      .form-check-inline {
+        margin-left: 12px;
+      }
+    }
+
+    .runsheetDate,
+    .vehicleType {
+      width: 175px;
+    }
+
+    .startDate,
+    .finishDate {
+      width: 200px;
+    }
+  }
+
+  .savedRunsheet {
+    align-items: center;
+  }
+
+  .editRunsheet {
+
+    button {
+      padding: 0 10px;
+      margin-left: 10px;
+      float: right;
+    }
+  }
+}
+
+.runsheetSummary {
+  .searchBtn {
+    margin-top: 38px;
+  }
+  .runsheetSummaryTable {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 0.35rem;
+    color: #666666;
+    .driverContainer {
+      .diverName {
+        color: #22366e;
+      }
+      background-color: #d2e7f3;
+      .borderTop {
+        border-top: 2px solid #b4b4b4;
+        &.red {
+          color: #ff0000;
+        }
+      }
+    }
+  }
+  .closedRunsheetTable {
+    .thead-dark {
+      color: #fff;
+      background-color: #020054;
+    }
+    td {
+      padding: 1rem;
+    }
+  }
+}
+
+.reportsSection {
+  .searchBtn {
+    margin-top: 38px;
+  }
+}

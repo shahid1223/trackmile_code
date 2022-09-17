@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+
+files:
+  - source: ./
+    destination: /var/www/codedeploy/REPLACE_ENV/admin-frontend
+    overwrite: yes
+
+hooks:
+  ApplicationStart:
+    - location: scripts/deploy.sh
+      timeout: 400
+      runas: root

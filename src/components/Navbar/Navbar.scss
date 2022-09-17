@@ -1,0 +1,25 @@
+.navbar--Header {
+  background-image:
+    url("../../images/navbarHeader.png"),linear-gradient(
+        90.02deg,
+        #1b2237 9.71%,
+        rgba(27, 34, 55, 0.97) 96.99%
+      );
+    background-size: cover;
+}
+
+
+a.nav-link.active {
+  // color: #091664 !important;
+  font-weight: 600;
+}
+
+.navbar-nav{
+  a.nav-link:hover{
+    cursor: pointer;
+    color: rgb(39, 82, 190) !important; 
+    // background-color: #4856a2 !important;
+    border-radius: 10px;
+    }
+  }
+

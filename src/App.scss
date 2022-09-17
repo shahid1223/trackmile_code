@@ -1,0 +1,93 @@
+// Montserrat [font-family: 'Montserrat', sans-serif;]
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+.App {
+  background: linear-gradient(179.09deg, rgba(255, 255, 255, 0) 14.37%, rgba(13, 44, 112, 0.43) 103.03%);
+  background-size: cover; /* Set the image to cover all the div */
+  background-repeat: no-repeat; /* Commonly used for that situation */
+  z-index:-1;
+  background: rgb(199, 199, 201);
+  background: linear-gradient(
+    180deg,
+    rgba(199, 199, 201, 0.30996148459383754) 5%,
+    rgba(0, 0, 40, 0.39119397759103647) 92%
+  );
+  min-height:100vh;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+// to remove the arrows on input-type == number
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+.center-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+ 
+.blur-bg{
+  backdrop-filter: blur(3px);
+}
+.blur-bg-10{
+  backdrop-filter: blur(10px);
+}
+.border-gray{
+  border:3px solid rgb(193, 177, 177) !important;
+}
+.bold-text{
+  font-weight: bold;
+}
+ 
+.blur-bg{
+  backdrop-filter: blur(3px);
+}
+.blur-bg-10{
+  backdrop-filter: blur(10px);
+}
+.border-gray{
+  border:3px solid rgb(193, 177, 177) !important;
+}
+
+.w-90{
+  width:90%;
+}
